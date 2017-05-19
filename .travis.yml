@@ -9,7 +9,7 @@ compiler:
   - clang
 
 env:
-  - NDK_VERSION=r14b TEST=arm
+  - NDK_VERSION=r13b TEST=arm
   - TEST=x86
 
 script:
